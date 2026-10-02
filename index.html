@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- tailwind css -->
+    <script src="js/browser@4.js"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- start header home sectiom -->
+
+    <header class="header-home h-[550px] bg-cover bg-right md:bg-top">
+
+        <!-- start navbar section -->
+
+        <nav
+            class="flex items-center justify-between px-6 md:px-16 lg:px-24 xl:px-32 py-4 bg-transparent relative transition-all">
+            <a href="https://prebuiltui.com">
+                <img class="h-[70px]" src="media/mad (1).png">
+            </a>
+
+            <button aria-label="Menu" id="menu-toggle" class="sm:hidden">
+                <svg width="21" height="15" viewBox="0 0 21 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="21" height="1.5" rx=".75" fill="#426287" />
+                    <rect x="8" y="6" width="13" height="1.5" rx=".75" fill="#426287" />
+                    <rect x="6" y="13" width="15" height="1.5" rx=".75" fill="#426287" />
+                </svg>
+            </button>
+
+            <div id="mobile-menu"
+                class="hidden absolute top-[60px] left-0 w-full bg-white shadow-md py-4 flex-col items-start gap-2 px-5 text-sm md:hidden">
+                <a href="#" class="block">Home</a>
+                <a href="#" class="block">About</a>
+                <a href="#" class="block">Contact</a>
+
+                <button
+                    class="cursor-pointer px-6 py-2 mt-2 bg-indigo-500 hover:bg-indigo-600 transition text-white rounded-full text-sm">
+                    Login
+                </button>
+
+            </div>
+
+            <div class="hidden sm:flex items-center gap-8 text-white">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+
+                <button
+                    class="cursor-pointer px-8 py-2 bg-[#ed7c6a] hover:bg-[#732215] transition text-white rounded-full">
+                    Login
+                </button>
+
+            </div>
+
+        </nav>
+
+        <!-- end navbar section -->
+
+
+        <div class="container w-[90%] m-auto">
+
+            <div class="grid md:grid-cols-2">
+
+                <div
+                    class="bg-[#5aa28b] text-white text-[23px] sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl leading-[1.5] rounded-[25px] p-10 pl-15 w-[60%] md:w-[80%] m-auto mt-20">
+                    <h2>Always laugh <br> when you can, <br> it is free <br> medicine</h2>
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- end header home section -->
+
+
+    <!-- start school home section  -->
+
+    <main class="school-home my-10">
+
+        <div class="container w-[90%] m-auto">
+
+            <div class="grid md:grid-cols-2">
+
+                <div class="md:col-span-2">
+                    <h2 class="text-center text-[#2b5d5c] text-2xl font-semibold">School Clinic</h2>
+                    <hr class="w-[120px] m-auto mt-3 h-[3px] border-none bg-[#e88217] mb-10">
+                </div>
+
+                <div class="flex items-center">
+                    <img src="media/compo (1).png" class="w-[70%] block m-auto mb-7">
+                </div>
+
+                <div class="flex flex-col justify-center ">
+                    <h5 class="text-xl font-medium text-[#2b5d5c] mb-3">The school clinic services</h5>
+                    <p>Conducting periodic checks for students.Implementing vaccination programs to prevent diseases,
+                        according
+                        to the instructions of the Ministry of Health. Follow-up of sick cases and contact with parents
+                        to
+                        attend if the case requires. <br> Providing a healthy environment in the school community.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- end school home section  -->
+
+
+    <!-- start services home section -->
+
+    <section class="services-home lg:h-[750px] pb-15 bg-cover mt-5 pt-25">
+
+        <div class="container w-[90%] m-auto">
+
+            <div class=" grid md:grid-cols-2 lg:grid-cols-4 gap-5">
+
+                <div class="md:col-span-2 lg:col-span-4">
+                    <h2 class="text-center text-2xl text-white mb-10 font-semibold">Don't Hestegate to be in Touch</h2>
+                </div>
+
+                <div class="bg-white p-6 rounded-[5px]">
+                    <img src="media/s1 (1).png" class="w-full">
+                    <h5 class="text-xl text-[#439da5] mb-2 mt-3">First Aids</h5>
+                    <p>
+                        Providing general safety and first aid supplies.
+                        Conducting the necessary first aid and referring
+                        emergency cases to hospitals when necessary.
+                    </p>
+
+                </div>
+
+                <div class="bg-white p-6 rounded-[5px]">
+                    <img src="media/s2 (1).png" class="w-full">
+                    <h5 class="text-xl text-[#439da5] mb-2 mt-3">Health education</h5>
+                    <p>
+                        Conducting awareness and educational lectures on
+                        public health and the importance of eating healthy foods.
+                    </p>
+
+                </div>
+
+                <div class="bg-white p-6 rounded-[5px]">
+                    <img src="media/s3 (1).png" class="w-full   ">
+                    <h5 class="text-xl text-[#439da5] mb-2 mt-3">Dental Health and Safety</h5>
+                    <p>
+                        Do a regular dental checkup.
+                        Spreading awareness and promoting healthy behavior
+                        among students of basic grades.
+                    </p>
+
+                </div>
+
+                <div class="bg-white p-6 rounded-[5px]">
+                    <img src="media/s4 (1).png" class="w-full">
+                    <h5 class="text-xl text-[#439da5] mb-2 mt-3">Student insurance</h5>
+                    <p>
+                        The doctor or nurse handles simple ambulance cases,
+                        while the student is transferred to the hospital if
+                        necessary within the coverage program.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- end services home section -->
+
+
+    <!-- start doctors home section  -->
+
+    <section class="doctors-home my-10">
+
+        <div class="container w-[90%] m-auto">
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+                <div class="col-span-1">
+                    <img src="media/Group 182 (1).png" class="block m-auto w-50% lg:w-[70%] mb-10">
+                </div>
+
+                <div class="col-span-1">
+                    <img src="media/Group 182 (1).png" class=" block m-auto w-50% lg:w-[70%] mb-10">
+                </div>
+
+                <div class="col-span-1">
+                    <img src="media/Group 182 (1).png" class="block m-auto w-50% lg:w-[70%] mb-10">
+                </div>
+
+                <div class="col-span-1">
+                    <img src="media/Group 182 (1).png" class="block m-auto w-50% lg:w-[70%] mb-10">
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- end doctors home section  -->
+
+
+    <!-- start footer home section  -->
+
+    <footer class="footer-home bg-[#0f7b65] py-20 rounded-[150px_150px_0px_0px]">
+
+        <div class="container w-[90%] m-auto text-light py-10">
+
+            <div class="grid md:grid-cols-6">
+
+                <div class="md:col-span-3 text-center text-white">
+                    <h2 class="text-2xl mt-5 mb-3">Madrasty</h2>
+                    <p>
+                        The Best collection of international schools
+                        for All Student In All <br> different Ages
+                        From six years to 15 years
+                    </p>
+                </div>
+
+                <div class="col-span-1 text-center  md:text-left">
+                    <h5 class="text-xl text-[#d08e7f] font-semibold mt-5">Student</h5>
+                    <a href="#" class="block text-white mt-3">Result</a>
+                    <a href="#" class="block text-white mt-3">Exams</a>
+                    <a href="#" class="block text-white mt-3">Quizes</a>
+                    <a href="#" class="block text-white mt-3">Courses</a>
+                </div>
+
+                <div class="col-span-1 text-center md:text-left">
+                    <h5 class="text-xl text-[#d08e7f] font-semibold mt-5">News</h5>
+                    <a href="#" class="block text-white mt-3">Uniform</a>
+                    <a href="#" class="block text-white mt-3">Champion</a>
+                    <a href="#" class="block text-white mt-3">Tables</a>
+                </div>
+
+                <div class="col-span-1 text-center md:text-left">
+                    <h5 class="text-xl text-[#d08e7f] font-semibold mt-5">Contact</h5>
+                    <a href="tel:+2033500394" class="block text-white mt-3">2033500394</a>
+                    <a href="mailto:O-32@yahoo.com" class="block text-white mt-3">O-32@yahoo.com</a>
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- end footer home section  -->
+
+
+    <script>
+        document.getElementById("menu-toggle").addEventListener("click", function () {
+            const menu = document.getElementById("mobile-menu");
+            if (menu.classList.contains("hidden")) {
+                menu.classList.remove("hidden");
+                menu.classList.add("flex");
+            } else {
+                menu.classList.add("hidden");
+            }
+        });
+    </script>
+
+</body>
+
+</html>

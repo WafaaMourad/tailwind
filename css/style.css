@@ -1,0 +1,16 @@
+/* start header home section  */
+
+.header-home {
+    background-image: url(../media/download\ \(1\).jpg.jpeg);
+}
+
+/* end header home section  */
+
+
+/* start services home section  */
+
+.services-home{
+    background-image: url(../media/Path\ 62\ \(1\).png), url(../media/i-love-my-job-so-much_329181-2178\ \(1\).png);
+}
+
+/* end services home section  */
